@@ -80,6 +80,7 @@ group :development, :test do
   gem 'slackistrano'
   gem 'capistrano-db-tasks', require: false
   gem 'rack-mini-profiler', require: false
+  gem 'binding_of_caller'
 end
 
 gem 'pg'
@@ -92,6 +93,7 @@ gem 'sassc-rails'
 gem 'bourbon'
 gem 'neat', '~>1.8.0'
 gem 'bootstrap-sass'
+gem 'material_icons'
 gem 'autoprefixer-rails'
 gem 'slim-rails'
 gem 'bower-rails'

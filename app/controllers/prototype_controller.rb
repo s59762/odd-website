@@ -1,6 +1,6 @@
 class PrototypeController < ApplicationController
 
-  def index
+  def trainee_plan
   end
 
 end

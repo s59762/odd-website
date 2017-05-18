@@ -1,2 +1,16 @@
 $susy: (columns: 12, gutters: 0, math: fluid, output: float, gutter-position: inside)
 box-sizing
+
+.container
+  +container($w-mobile)
+  +media($b-mobile)
+    +container($w-pad)
+  +media($b-pad)
+    +container($w-desktop)
+  +media($b-desktop)
+    +container($w-large)
+  +media($b-large)
+    +container($w-xlarge)
+
+.odd-row
+  +clearfix

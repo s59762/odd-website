@@ -33,3 +33,21 @@
     }
   }
 }
+
+.odd-btn {
+  display: block;
+  margin-bottom: 1em;
+  padding: 1.3em 0;
+  width: 100%;
+  font-size: 14px;
+  color: $white;
+  background-color: $dark-blue;
+  text-align: center;
+  border-radius: 2px;
+  transition: all, .3s;
+
+  &:focus,
+  &:hover {
+    background-color: $odd-blue;
+  }
+}
